@@ -55,7 +55,7 @@ class SimpleContainerConfig extends Component
 
             $params = $this->getParams($entry);
 
-            if (isset($entry['singleton']) && $entry['singleton'] == false) {
+            if (!isset($entry['singleton']) || $entry['singleton'] == true) {
                 \Yii::$container->setSingleton($entry['class'], $params);
             } else {
                 \Yii::$container->set($entry['class'], $params);
