@@ -1,0 +1,22 @@
+{
+  "name": "mertvetsky/yii2-simple-container-configurator",
+  "type": "yii2-extension",
+  "description": "Simple extension for register Yii2 class definition",
+  "keywords": ["yii2", "configuration"],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Mertvetsky",
+      "email": "mertvetsky@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "mertvetsky\\yii2SimpleContainerConfigurator\\": "."
+    }
+  }
+}
