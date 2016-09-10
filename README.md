@@ -16,7 +16,7 @@ return [
     'smth' => [
         'class'     => \app\lib\smth\Smth::class,
         'singleton' => false,
-        'message'   => 'from config' // or any defined as pulic field in your class
+        'message'   => 'from config' // or any defined as public field in your class
     ],
     'pew'  => [
         'class' => \app\lib\smth\Pewpew::class
