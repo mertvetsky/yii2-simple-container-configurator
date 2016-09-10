@@ -6,8 +6,9 @@ Just add to config `components` block
              'file' => __DIR__ . '/services.php',
         ],
 ```
+and `'containerConfig'` to `bootstrap` block.
 
-then create config/services.php file with your services definitions like
+Then create config/services.php file with your services definitions like
 ```
 <?php
 
